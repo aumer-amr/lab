@@ -6,7 +6,7 @@ metadata:
 provisioner: nfs.csi.k8s.io
 parameters:
   server: "storage.${SECRET_PRIVATE_DOMAIN}"
-  share: /storage/backups/csi-nfs ## showmount -e ${SECRET_PRIVATE_DOMAINs}
+  share: /storage/backups/csi-nfs # showmount -e ${SECRET_PRIVATE_DOMAINs}
 reclaimPolicy: Delete
 volumeBindingMode: Immediate
 mountOptions:
