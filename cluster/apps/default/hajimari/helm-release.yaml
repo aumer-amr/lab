@@ -33,6 +33,7 @@ spec:
           - default
           - networking
       name: "you"
+      darkTheme: blackboard
       showGlobalBookmarks: true
       globalBookmarks:
         - group: Communicate
