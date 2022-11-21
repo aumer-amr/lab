@@ -10,8 +10,8 @@ resources:
   - hajimari.yaml
   - ingress-nginx.yaml
   - jetstack.yaml
+  - kubereboot-charts.yaml
   - k8s-gateway.yaml
   - metallb.yaml
   - metrics-server.yaml
   - stakater.yaml
-  - weaveworks-kured.yaml
