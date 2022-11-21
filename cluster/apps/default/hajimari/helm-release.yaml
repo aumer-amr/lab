@@ -33,13 +33,10 @@ spec:
           - default
           - networking
       name: "you"
-      customApps:
-        - name: Some External Cluster Service
-          url: http://192.168.1.100:5000
-          icon: test-tube
-      bookmarks:
-        - name: Communicate
-          links:
+      showGlobalBookmarks: true
+      globalBookmarks:
+        - group: Communicate
+          bookmarks:
             - name: Discord
               url: "https://discord.com"
             - name: Gmail
